@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #24292e;
+            color: white;
+            padding: 40px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 50px 20px;
+        }
+
+        .card {
+            background: white;
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #24292e;
+            color: white;
+            padding: 15px;
+        }
+
+        button {
+            background: #0366d6;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #024ea2;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My GitHub Website</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <div class="card">
+        <h2>About Me</h2>
+        <p>Hello! I'm a developer passionate about web development, AI, and open-source projects.</p>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="card">
+        <h2>My Projects</h2>
+        <p>Explore my latest GitHub projects and contributions.</p>
+        <button onclick="alert('Thanks for visiting!')">
+            View Projects
+        </button>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: yourname@example.com</p>
+        <p>GitHub: github.com/yourusername</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 My GitHub Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
